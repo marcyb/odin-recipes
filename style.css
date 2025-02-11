@@ -1,27 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 1028px;
+  padding: 20px;
 }
 
 ul {
   list-style: none;
-  margin-left: 0;
-  padding-left: 0;
+  margin: 0 auto;
 }
 
 li {
-  padding-left: 1em;
-  text-indent: -1em;
+  display: inline-block;
+  width: 750px;
+  height: 200px;
+  text-align: center;
+  border: 2px solid chocolate;
+  border-radius: 25px;
+  margin: 10px;
 }
 
-li:before {
-  content: ">";
-  padding-right: 5px;
+#italian-wedding-pasta-bake {
+  background-image: url(images/Italian-Wedding-Pasta-Bake.webp);
+}
+
+#baked-potato-soup {
+  background-image: url(images/baked-potato-soup.webp);
+}
+
+#breakfast-burrito {
+  background-image: url(images/breakfast-burrito.webp);
+  background-position: center;
 }
 
 a {
+  display: inline-block;
   text-decoration: none;
-  color: inherit;
-  font-size: 18px;
+  font-size: 24px;
+  height: 150px;
+  width: 750px;
+  /* padding-left: 350px; */
+  /* padding-top: 10px; */
+  color: black;
+  font-weight: 800;
+}
+
+#italian-wedding-pasta-bake a {
+  padding-left: 410px;
+  padding-top: 60px;
+}
+
+#baked-potato-soup a {
+  padding-right: 200px;
+  padding-top: 25px;
+}
+
+#breakfast-burrito a {
+  padding-left: 140px;
+  padding-top: 15px;
 }
 
 a:hover {
